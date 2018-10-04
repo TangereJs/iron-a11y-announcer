@@ -1,6 +1,6 @@
 {
   "name": "iron-a11y-announcer",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A singleton element that simplifies announcing text to screen readers.",
   "keywords": [
     "web-components",
@@ -18,7 +18,7 @@
   "main": "iron-a11y-announcer.html",
   "license": "http://polymer.github.io/LICENSE.txt",
   "dependencies": {
-    "polymer": "Polymer/polymer#1.9 - 2"
+    "tangere": "TangereJs/tangere#master"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#1 - 2",
@@ -33,7 +33,7 @@
   "variants": {
     "1.x": {
       "dependencies": {
-        "polymer": "Polymer/polymer#^1.9"
+        "tangere": "TangereJs/tangere#master"
       },
       "devDependencies": {
         "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
